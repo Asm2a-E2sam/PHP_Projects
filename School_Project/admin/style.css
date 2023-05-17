@@ -1,0 +1,54 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+form{
+    box-sizing: border-box;
+    padding-left: 25% !important;
+}
+
+label,select{
+    height: 25px;
+    width: 70% !important;
+    font-size: 22px;
+    color: purple;
+}
+.form-control{
+    width: 70% !important;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+    color: purple; 
+}
+
+#add{
+    border-radius: 20px;
+    font-size: 22px;
+    width: 20%;
+    height: 45px;
+    font-weight: bold;
+    color: lightgray;
+    background-color: purple; 
+    border: none;
+}
+
+option{
+    width: 100%;
+}
+
+form .row{
+    width: 50%;
+}
+
+.row>input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px 20px !important;
+    font-size: 22px;
+}
